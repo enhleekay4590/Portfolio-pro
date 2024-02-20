@@ -1,3 +1,6 @@
+:root {
+  --primary-color: rgb(63, 65, 66);
+}
 .hero {
   background-image: url(/src/images/wp11713757-videographer-wallpapers.jpg);
   height: 600px;
@@ -11,15 +14,22 @@
   margin-top: 12px;
   padding: 13px 15px;
   background-color: rgb(129, 129, 212);
-  color: white;
+  color: var(--primary-color);
 }
 
+.greeting {
+  padding-left: 6px;
+  font-size: 19px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
 h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
   font-size: 50px;
-  color: rgb(63, 65, 66);
+  color: var(--primary-color);
 }
 h2 {
   color: grey;
@@ -28,7 +38,7 @@ h2 {
   font-weight: 400;
   font-style: normal;
 }
-p {
+.content {
   text-align: center;
   font-size: 22px;
   margin-top: 10px;
