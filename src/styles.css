@@ -61,3 +61,32 @@ h2 {
 .image-2 {
   margin-right: 0;
 }
+
+.info {
+  padding-left: 95px;
+}
+.more-details {
+  background: linear-gradient(
+    180.3deg,
+    rgb(221, 221, 221) 5.5%,
+    rgb(110, 136, 161) 90.2%
+  );
+  padding-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+  .more-details {
+    text-align: center;
+  }
+  .info {
+    margin-right: 90px;
+  }
+
+  .hero {
+    text-align: center;
+  }
+}
+
+.greeting {
+  margin-right: 68px;
+}
